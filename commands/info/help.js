@@ -44,9 +44,7 @@ function getAll(client, message, prefix) {
 	});
 	message.channel.send(
 		em.setFooter(
-			`Use ${prefix}help <command> for more info on a specific command\n[Command count: ` +
-				client.commands.array().length +
-				"]"
+			`Use ${prefix}help <command> for more info on a specific command\n[Command count: `
 		)
 	);
 }

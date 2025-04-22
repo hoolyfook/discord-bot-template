@@ -1,7 +1,7 @@
 module.exports = {
     name: "ping",
     category: "dev",
-    adminOnly: true,
+    adminOnly: false,
     description: "Returns bot's latency",
     run: async (bot) => {
       var {client, message, f} = bot;
